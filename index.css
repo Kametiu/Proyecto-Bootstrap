@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/58/a5/fd/58a5fd9380234b436ac13a2c24dfa6c0.jpg);
+   }
+   
+   nav  {
+     display: flex;
+   }
+   
+   #contacto{
+     margin-right: 10%;
+   }
+   
+   .a{
+     text-decoration: none;
+     font-size: 200%;
+     color: black;
+   }
+   
+   h2 {
+     font-size: 150%;
+   }
+   
+   h3 {
+     text-align:center; 
+     font-size: 200%;
+   }
+   
+    #cartel {
+     background-color: rgba(0, 0, 255, 0.521);
+     border-radius: 5%;
+     border-style:groove;
+    }
+   
+   
+   .carrousel div{ 
+     flex: 0 0 100%;
+     width: 100%;
+     scroll-snap-align: center;
+    }
+    
+    .carrousel div img {
+     object-fit: fill;
+    } 
+    
+    footer{
+     width: 100%;  
+   }
+   
+   
+    footer div a{
+     padding-top: 1%;
+     padding-bottom: 1%;
+     margin-left: 5%;
+     margin-right: 12%;
+     text-decoration: none;
+     color: black;
+   }
